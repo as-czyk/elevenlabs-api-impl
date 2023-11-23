@@ -7,4 +7,4 @@
 
 ## To get started 
 - add a config.js on root level of project
-`export const ELEVENLABS_API_KEY=your_api_key`
+- `export const ELEVENLABS_API_KEY=your_api_key`
