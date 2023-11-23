@@ -1,0 +1,8 @@
+# Ignore IDE and editor specific files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Exclude config.js from root of project
+config.js
