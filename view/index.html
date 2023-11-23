@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/loader.css">
     <title>Elevenlabs API Implementation</title>
 </head>
 <body>
+    <main class="mainContainer">
+        <div class="selectBoxesContainer">
+            <select name="Voice" id="voiceDropdown">
+            </select>
+            <select name="Model" id="modelDropdown">
+            </select>
+        </div>
+        <textarea rows="10" name="Text" id="textArea"></textarea>
+        <button id="generateAudio">Generate Audio</button>
+        <div id="loaderContainer" class="loaderContainer">
+            <div class="loader"></div>
+        </div>
+    </main>
     <script type="module" src="../api/ElevenlabsApi.js"></script>
     <script type="module" src="../api/index.js"></script>
     <script type="module" src="./config.js"></script>

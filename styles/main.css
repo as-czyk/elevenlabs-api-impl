@@ -1,0 +1,57 @@
+body {
+    font-size: 1rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    gap: 1rem;
+}
+
+.selectBoxesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+
+select {
+    width: 12.5rem;
+
+    padding: .625rem;
+    margin-bottom: .625rem;;
+
+    border-radius: .4rem;
+    border: 1px solid #ccc;
+}
+
+option {
+    padding: .625rem;;
+}
+
+textarea {
+    width: 25rem;
+
+    border-radius: .4rem;
+    border: 1px solid #ccc;
+    
+    padding: .625rem;;
+    margin-bottom: .625rem;
+    
+    resize: none;
+}
+
+button {
+    padding: .625rem;
+    border-radius: .4rem;
+    border: 1px solid #ccc;
+    margin-bottom: .625rem;
+    cursor: pointer;
+}

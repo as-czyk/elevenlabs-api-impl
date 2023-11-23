@@ -70,7 +70,7 @@ const ElevenLabsApi = {
      * @param {number} options.pitch - The pitch at which the speech should be spoken.
      * @returns {Promise<Blob>} A Promise that resolves to a Blob representing the speech audio.
      * 
-     * Note: Further Impl can be done to support the voice_settings object.
+     * Note: Further Impl can be done to support the voice_settings object or include the model_id
      */
 
     textToSpeech: async (textToConvert = "Hello World", voiceId = "2EiwWnXFnvU5JabPnv8n") => {
@@ -110,9 +110,6 @@ const ElevenLabsApi = {
         } catch (e) {
             console.error("Error occurred", e)
         }
-
-
-
     }
 }
 
